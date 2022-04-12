@@ -14,7 +14,7 @@ const Products = (props) => {
                 <p className="gray-color"><small>Ratings: {ratings} stars</small></p>
             </div>
             <div>
-                <button className="btn">Add to cart</button>
+                <button onClick={()=>props.handleAddToCart(props.product)} className="btn">Add to cart</button>
             </div>
 
         </div>

@@ -55,5 +55,22 @@
 }
 
 
+@media only screen and (max-width: 576px){
+    .product{
+        height: 400px;
+        width: 200px;
+        border: 1px solid rgb(209, 201, 201,0.5);
+        border-radius: 10px;
+        position: relative;
+    }
+    .product img {
+        height: 188px;
+        width: 188px;
+        border-radius: 10px;
+        margin: 6px;
+    }
+}
+
+
 
 

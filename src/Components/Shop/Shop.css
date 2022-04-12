@@ -9,3 +9,20 @@
     grid-gap: 30px;
     margin: 40px;
 }
+
+
+
+@media only screen and (max-width: 576px){
+    .shop{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .shop-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        margin: 20px;
+
+    }
+}
