@@ -4,17 +4,40 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 140px 0 140px;
+    padding: 0 130px 0 130px;
 }
 
 .header a{
     color: #FFFF;
     text-decoration: none;
-    padding: 5px;
+    padding: 0px;
     font-size: 17px;
-    margin-left: 36px;
+    margin-left: 30px;
 }
 
 .header a:hover{
     color: orangered;
+}
+
+
+
+@media only screen and (max-width: 576px){
+    .header img{
+        height: 20px;
+        width: 90px;
+    }
+
+    .header{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: around;
+        padding: 0;
+    }
+
+    .header a{
+        font-size: 12px;
+        padding: 0;
+        margin: 0 10px 0 5px;
+    }
 }
