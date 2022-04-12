@@ -7,3 +7,10 @@
     padding: 0 140px 0 140px;
 }
 
+.header a{
+    color: #FFFF;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 17px;
+    margin-left: 36px;
+}
